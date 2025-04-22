@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_pool_enemies",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_pool_enemies",
+  "parent":{
+    "name":"enemies",
+    "path":"folders/Scripts/enemies.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

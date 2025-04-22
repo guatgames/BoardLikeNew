@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_pool2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_pool2",
+  "parent":{
+    "name":"deck",
+    "path":"folders/Scripts/deck.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

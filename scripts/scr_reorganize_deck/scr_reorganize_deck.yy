@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_reorganize_deck",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_reorganize_deck",
+  "parent":{
+    "name":"deck",
+    "path":"folders/Scripts/deck.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
