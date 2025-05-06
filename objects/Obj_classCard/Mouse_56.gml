@@ -66,7 +66,6 @@ if(Obj_Player.mana > 0 && self.information.cost <= Obj_Player.mana || self.infor
                         
         		
         			}
-                    Obj_Player.mana -= self.information.cost; 
                     self.excCard();
         	
         		} else {
@@ -86,9 +85,11 @@ if(Obj_Player.mana > 0 && self.information.cost <= Obj_Player.mana || self.infor
             if(self.information.isShield){
                 
                 Obj_Player.shield += self.information.shield;
+                self.excCard();
                    
             }
             
+            Obj_Player.mana -= self.information.cost; 
             self.x=room_width/2;
             self.y=room_height/2-32;
             self.alarm[0]=15; 

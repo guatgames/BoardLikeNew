@@ -45,7 +45,7 @@ if (init == true)
 	
 	#region //Draw the sprite of the card
 	
-	var spr = draw_sprite(sprit,-1,posx,posy-16-((i+num_lines)*25));
+	var spr = draw_sprite(sprit,2,posx,posy-16-((i+num_lines)*25));
 	
 	#endregion
 	
