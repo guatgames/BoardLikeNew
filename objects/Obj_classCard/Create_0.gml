@@ -9,7 +9,7 @@ information=
 {
 	name:"",
 	cost:0,
-	description:"Hola como estan todos",
+	description:"Hi guys",
 	dmg:0,
 	life:0,
 	sprite: spr_nothing,

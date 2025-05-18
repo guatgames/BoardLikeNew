@@ -4,6 +4,7 @@ colli = false;
 collision =  instance_create_layer(x,y,"Instances", Obj_activate_enemy);
 pos = 0;
 damage = false;
+objName = Obj_classEnemy;
 
 stats=
 {

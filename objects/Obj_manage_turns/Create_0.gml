@@ -1,9 +1,7 @@
-randomize();
+
+seed = random_get_seed();
 
 list=ds_list_create();
-ds_list_add(list,Obj_card_atack,Obj_card_shield,Obj_card_mana,Obj_card_mana,Obj_card_shield,
-				 Obj_card_atack,Obj_card_atack,Obj_card_atack,Obj_card_shield,Obj_card_atack,
-				 Obj_card_atackAll);
 
 numOfHand=5;
 deck=ds_list_create();
@@ -29,6 +27,8 @@ cleanHand = false;
 			machine.AddState("Start", {
 				onEnter: function()
 				{
+                       
+                    random_set_seed(seed);
 					//Create the pool
 					scr_pool(list,deck,init_deck);
                     //Request the pool
@@ -38,6 +38,8 @@ cleanHand = false;
                     
                     playerTurn=true;
 					win = false;
+                    
+                    Obj_System.saveBattle();
 					
 				}
 			})

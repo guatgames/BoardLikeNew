@@ -8,3 +8,4 @@ self.information.nameObject=Obj_card_atack;
 self.information.isAtack=true;
 self.information.dmg=2;
 self.information.isArea=false;
+
