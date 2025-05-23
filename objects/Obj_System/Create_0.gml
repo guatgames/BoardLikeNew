@@ -6,7 +6,7 @@ function loadBattle(){
     
     var file = file_text_open_read("battle.json");
     
-    if (file >= 0){
+    if (file <= 0){
     
         var jsonString = file_text_read_string(file);
         var battle = json_parse(jsonString);
@@ -17,8 +17,6 @@ function loadBattle(){
         
         var currentPlayer = instance_create_layer(x,y,"Instances",Obj_Player);
         currentPlayer.life = battle.player.life;
-        
-        show_debug_message(battle.deck[1].objName);
         
         var manager = instance_create_layer(x,y,"Instances",Obj_manage_turns);
         manager.seed = battle.seedManager;
