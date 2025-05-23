@@ -31,8 +31,6 @@ function loadBattle(){
         
         }
         
-        ds_list_sort(Obj_manage_turns.list,false);
-        
         
     } else {
        
@@ -84,7 +82,6 @@ function saveBattle(){
     
     }
     
-    ds_list_sort(Obj_manage_turns.list,false);
     
     for(var i = 0; i < ds_list_size(Obj_manage_turns.list); i++){
 
