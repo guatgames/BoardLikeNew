@@ -3,9 +3,13 @@
   "%Name":"Obj_System",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
+=======
+  "eventList":[],
+>>>>>>> parent of 1d54ada (0.0.0.2)
 =======
   "eventList":[],
 >>>>>>> parent of 1d54ada (0.0.0.2)
