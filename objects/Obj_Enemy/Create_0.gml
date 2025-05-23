@@ -2,7 +2,6 @@
 event_inherited();
 
 self.stats.dmg = 5;
-self.objName = Obj_Enemy;
 
 function excTurn(){
 	
