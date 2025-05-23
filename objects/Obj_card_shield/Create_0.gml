@@ -7,4 +7,4 @@ self.information.sprite=spr_shield;
 self.information.nameObject=Obj_card_shield;
 self.information.isShield=true;
 self.information.isArea=true;
-self.information.shield = 5;
+self.information.shield = 5

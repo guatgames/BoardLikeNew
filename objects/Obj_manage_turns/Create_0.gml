@@ -86,7 +86,7 @@ cleanHand = false;
 	
 				onStep: function()
 				{
-				    
+				    show_debug_message(Obj_Player.shield);	
 				},
 	
 			})
@@ -129,6 +129,7 @@ cleanHand = false;
 			{
 				onEnter: function()
 				{
+                    show_debug_message("Hola")
                     
                     for (var i = 0; i < ds_list_size(hand_list); i++) {
                         
@@ -140,6 +141,8 @@ cleanHand = false;
                         //ds_list_delete(hand_list,ds_list_find_index(hand_list,card.id));
                         
                         instance_deactivate_object(card);
+                        
+                        show_debug_message("Elimiado");
 
                     }
                     
